@@ -13,6 +13,9 @@
 		63690F5A1BE9DAF4006A1D51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63690F581BE9DAF4006A1D51 /* Main.storyboard */; };
 		63690F5C1BE9DAF4006A1D51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63690F5B1BE9DAF4006A1D51 /* Assets.xcassets */; };
 		63690F5F1BE9DAF4006A1D51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63690F5D1BE9DAF4006A1D51 /* LaunchScreen.storyboard */; };
+		63690F691BE9DB1B006A1D51 /* LCGraffitiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63690F681BE9DB1B006A1D51 /* LCGraffitiView.m */; };
+		63690F6B1BE9EBAE006A1D51 /* zhejiang.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63690F6A1BE9EBAE006A1D51 /* zhejiang.jpg */; };
+		63690F6E1BEA03A4006A1D51 /* LCBezierView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63690F6D1BEA03A4006A1D51 /* LCBezierView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		63690F5B1BE9DAF4006A1D51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63690F5E1BE9DAF4006A1D51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63690F601BE9DAF4006A1D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63690F671BE9DB1B006A1D51 /* LCGraffitiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCGraffitiView.h; sourceTree = "<group>"; };
+		63690F681BE9DB1B006A1D51 /* LCGraffitiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCGraffitiView.m; sourceTree = "<group>"; };
+		63690F6A1BE9EBAE006A1D51 /* zhejiang.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhejiang.jpg; sourceTree = "<group>"; };
+		63690F6C1BEA03A4006A1D51 /* LCBezierView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCBezierView.h; sourceTree = "<group>"; };
+		63690F6D1BEA03A4006A1D51 /* LCBezierView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCBezierView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 		63690F4E1BE9DAF4006A1D51 /* LCGraffitiImageView */ = {
 			isa = PBXGroup;
 			children = (
+				63690F661BE9DB00006A1D51 /* LCGraffitiImageView */,
 				63690F521BE9DAF4006A1D51 /* AppDelegate.h */,
 				63690F531BE9DAF4006A1D51 /* AppDelegate.m */,
 				63690F551BE9DAF4006A1D51 /* ViewController.h */,
@@ -74,9 +83,21 @@
 		63690F4F1BE9DAF4006A1D51 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				63690F6A1BE9EBAE006A1D51 /* zhejiang.jpg */,
 				63690F501BE9DAF4006A1D51 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63690F661BE9DB00006A1D51 /* LCGraffitiImageView */ = {
+			isa = PBXGroup;
+			children = (
+				63690F671BE9DB1B006A1D51 /* LCGraffitiView.h */,
+				63690F681BE9DB1B006A1D51 /* LCGraffitiView.m */,
+				63690F6C1BEA03A4006A1D51 /* LCBezierView.h */,
+				63690F6D1BEA03A4006A1D51 /* LCBezierView.m */,
+			);
+			name = LCGraffitiImageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +160,7 @@
 				63690F5F1BE9DAF4006A1D51 /* LaunchScreen.storyboard in Resources */,
 				63690F5C1BE9DAF4006A1D51 /* Assets.xcassets in Resources */,
 				63690F5A1BE9DAF4006A1D51 /* Main.storyboard in Resources */,
+				63690F6B1BE9EBAE006A1D51 /* zhejiang.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +171,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63690F6E1BEA03A4006A1D51 /* LCBezierView.m in Sources */,
 				63690F571BE9DAF4006A1D51 /* ViewController.m in Sources */,
+				63690F691BE9DB1B006A1D51 /* LCGraffitiView.m in Sources */,
 				63690F541BE9DAF4006A1D51 /* AppDelegate.m in Sources */,
 				63690F511BE9DAF4006A1D51 /* main.m in Sources */,
 			);

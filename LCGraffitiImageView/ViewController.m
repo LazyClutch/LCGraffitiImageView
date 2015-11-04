@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "LCGraffitiView.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    LCGraffitiView *imageView = [[LCGraffitiView alloc] initWithImage:[UIImage imageNamed:@"zhejiang.jpg"]];
+    imageView.strokeColor = [UIColor yellowColor];
+    imageView.strokeLevel = LCGraffitiStrokeLevelVeryThin;
+    imageView.userInteractionEnabled = YES;
+    [imageView setFrame:CGRectMake(0, 0, 300, 300)];
+    [self.view addSubview:imageView];
+    imageView.center = self.view.center;
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
